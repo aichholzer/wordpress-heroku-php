@@ -1,16 +1,16 @@
 {
   "repositories": [{
     "type": "composer",
-    "url": "http://wpackagist.org"
+    "url": "https://wpackagist.org"
   }, {
     "type": "package",
     "package": {
       "name": "wordpress",
       "type": "webroot",
-      "version": "4.8.1",
+      "version": "4.9.4",
       "dist": {
         "type": "zip",
-        "url": "https://github.com/WordPress/WordPress/archive/4.8.1.zip"
+        "url": "https://es.wordpress.org/wordpress-4.9.4-es_ES.zip"
       },
       "require": {
         "fancyguy/webroot-installer": "1.0.0"
@@ -19,7 +19,7 @@
   }],
   "require": {
     "php": ">=5.3.0",
-    "wordpress": "4.8.1",
+    "wordpress": "4.9.4",
     "fancyguy/webroot-installer": "1.0.0",
     "vlucas/phpdotenv": "^2.4"
   },
